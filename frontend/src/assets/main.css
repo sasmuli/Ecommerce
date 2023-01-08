@@ -1,0 +1,92 @@
+body {
+
+  background-size: 1920px 2900px; 
+   left: 0px;
+   width: auto;
+   font-family: 'Amatic SC', cursive;
+   font-size: 20px;
+   background-color: grey;
+   line-height: 1.3;
+   margin: 0px;
+   text-align: left;
+   position: relative;
+}
+
+#navBar {
+  display: fixed;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 50px;
+}
+
+#navBarButton {
+  padding: 0.7rem 2rem;
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background: #2f855a;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 24px 24px 84px #2d8d5b, inset -12px -12px 14px #3abe7c,inset 10px 10px 20px #17d177;
+}
+
+#navBarButton:hover {
+  color: #2fbe72;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  line-height: 2pt;
+  padding: auto;
+  width: 100%;
+  height: 12%;
+}
+
+#textButton {
+  background: none!important;
+  font-size: 20px;
+  border: none;
+  padding: 0!important;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.data {
+  font-size: 16px;
+  padding: 50px 300px;
+  border-radius: 20px;
+  margin: 100px auto;
+  width: 50vw;
+  background-color: #fff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.buybtn {
+  padding: 0.7rem 2rem;
+  margin-top: -42px;
+  margin-left: -900px;
+  border: none;
+  cursor: pointer;
+  background: #2f855a;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  box-shadow: 24px 24px 84px #2d8d5b, inset -12px -12px 14px #3abe7c,inset 10px 10px 20px #17d177;
+  position: absolute;
+}
+.buy:hover {
+  color: #2fbe72;
+}
